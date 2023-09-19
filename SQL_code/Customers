@@ -1,5 +1,4 @@
-``` 
+``
 SELECT max(date) 
 FROM orders
-
-```
+``
