@@ -14,6 +14,13 @@ FROM orders;
 
 
 ```
+SELECT  count(order_id) 
+FROM orders 
+```
+![caascssc](https://github.com/mfernandezcean/Pizza_Sales/assets/105746149/6a66a0b2-e404-464f-9970-ab9a254f3f14)
+
+
+```
 SELECT date, count(order_id) as ORDERS 
 FROM orders 
 GROUP BY 1
